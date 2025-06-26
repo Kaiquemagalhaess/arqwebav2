@@ -155,5 +155,5 @@ Basta importar o repositório com suporte a Docker e definir a porta 8080.
 
 ## 📬 Contato
 
-Kaique Batista - kaique@email.com  
+Kaique Batista - kaiquebatista38@gmail.com  
 Curso: Análise e Desenvolvimento de Sistemas - Newton Paiva
