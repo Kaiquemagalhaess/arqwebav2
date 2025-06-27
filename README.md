@@ -1,11 +1,11 @@
 
-# 🛍️ Loja API - AV2 Spring Boot
+# Loja API - AV2 Spring Boot
 
 API RESTful para gerenciamento de produtos e categorias com autenticação JWT, documentação via Swagger, testes com JUnit, monitoramento com Actuator + Prometheus + Grafana, e deploy com Docker.
 
 ---
 
-## 📦 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Java 17
 - Spring Boot 3.x
@@ -18,7 +18,7 @@ API RESTful para gerenciamento de produtos e categorias com autenticação JWT, 
 
 ---
 
-## 🚀 Instalação e Execução Local
+## Instalação e Execução Local
 
 1. Clone o projeto:
 
@@ -48,7 +48,7 @@ cd loja-api
 
 ---
 
-## 🔐 Autenticação JWT
+## Autenticação JWT
 
 1. Registre um usuário com:
 ```json
@@ -75,7 +75,7 @@ Authorization: Bearer SEU_TOKEN_JWT
 
 ---
 
-## ✅ Testes Automatizados
+## Testes Automatizados
 
 Execute os testes com:
 
@@ -87,7 +87,7 @@ Os testes utilizam JUnit e Mockito para validar autenticação e regras de negó
 
 ---
 
-## 📈 Testes de Carga com JMeter
+## Testes de Carga com JMeter
 
 1. Baixe e abra o Apache JMeter: https://jmeter.apache.org/download_jmeter.cgi
 2. Crie um Thread Group e um HTTP Request simulando o endpoint POST /auth/login
@@ -98,7 +98,7 @@ Os testes utilizam JUnit e Mockito para validar autenticação e regras de negó
 
 ---
 
-## 📖 Documentação Swagger
+## Documentação Swagger
 
 Após rodar o projeto, acesse:
 
@@ -106,14 +106,14 @@ Após rodar o projeto, acesse:
 
 ---
 
-## 🩺 Monitoramento com Actuator + Prometheus + Grafana
+## Monitoramento com Actuator + Prometheus + Grafana
 
 - Acesse:
   - http://localhost:8080/actuator/health
   - http://localhost:8080/actuator/metrics
   - http://localhost:8080/actuator/prometheus
 
-📊 Configure o Prometheus com o seguinte alvo:
+## Configure o Prometheus com o seguinte alvo:
 ```yaml
 static_configs:
   - targets: ['localhost:8080']
@@ -123,7 +123,7 @@ static_configs:
 
 ---
 
-## 🐳 Deploy com Docker
+##  Deploy com Docker
 
 1. Gere o JAR:
 ```bash
@@ -142,12 +142,12 @@ docker run -p 8080:8080 loja-api
 
 ---
 
-## ☁️ Deploy na Nuvem
+## Deploy na Nuvem
 
 Você pode usar serviços como:
 
-- 🔧 Railway (https://railway.app)
-- 🚀 Render (https://render.com)
+-  Railway (https://railway.app)
+-  Render (https://render.com)
 
 Basta importar o repositório com suporte a Docker e definir a porta 8080.
 
